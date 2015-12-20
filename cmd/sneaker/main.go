@@ -13,8 +13,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/kms"
 	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/codahale/sneaker"
 	"github.com/docopt/docopt-go"
+	"github.com/ebroder/sneaker"
 )
 
 const usage = `sneaker manages secrets.
